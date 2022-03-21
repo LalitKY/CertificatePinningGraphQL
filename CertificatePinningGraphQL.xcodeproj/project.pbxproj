@@ -61,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966B873527E8F68400C53D66 /* GraphQLManager */ = {
+			isa = PBXGroup;
+			children = (
+				96FF2EFA27E8EF53001F7E60 /* GraphQLNetworkManager.swift */,
+				96FF2EF627E8E5E7001F7E60 /* PromiscuousURLSessionClient.swift */,
+				96FF2EF827E8E61C001F7E60 /* Data+Extension.swift */,
+			);
+			path = GraphQLManager;
+			sourceTree = "<group>";
+		};
 		96FF2EC727E87A55001F7E60 = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +92,9 @@
 			children = (
 				96FF2ED327E87A55001F7E60 /* AppDelegate.swift */,
 				96FF2ED527E87A55001F7E60 /* SceneDelegate.swift */,
-				96FF2EFC27E8F3F1001F7E60 /* GraphQL */,
 				96FF2ED727E87A55001F7E60 /* ViewController.swift */,
-				96FF2EFA27E8EF53001F7E60 /* GraphQLNetworkManager.swift */,
-				96FF2EF627E8E5E7001F7E60 /* PromiscuousURLSessionClient.swift */,
-				96FF2EF827E8E61C001F7E60 /* Data+Extension.swift */,
+				96FF2EFC27E8F3F1001F7E60 /* GraphQL */,
+				966B873527E8F68400C53D66 /* GraphQLManager */,
 				96FF2ED927E87A55001F7E60 /* Main.storyboard */,
 				96FF2EDC27E87A5A001F7E60 /* Assets.xcassets */,
 				96FF2EDE27E87A5A001F7E60 /* LaunchScreen.storyboard */,
